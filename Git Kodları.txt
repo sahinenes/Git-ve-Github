@@ -1,0 +1,62 @@
+git config --list         // sahip bilgilerini gösterir .name , .email 
+
+			 // yapılan değişiklikler  yapan anlaşılsın
+
+git config --global user.name = "kullanıcı adın" 
+
+git config --global user.email = "email" 
+
+git init              // git dosyasını oluştur.
+
+git status           // git durumu geçişte mi gönderildi mi durumları gösterir.
+
+git add .             // herşeyi geçiş bölgesine al
+
+git commit -m "Arduino icin eklenti kart"     //karşıya yükle (-m açıklaması)
+
+clear      // satırları temizler
+
+git commit  // karşıya yükle ama yeni bir ekran açılacak açıklama yazman lazım
+            // çıkmak için i ye sonra escape tuşuna bas 
+             /// :x! kaydet ve çık kodu 
+
+
+touch text.txt  ///txt dosyası oluşturur
+
+rm dosya_adı //dosyayı siler
+
+git add -A    // tüm değişiklikler bildirildi (mesal text dosyası oluşturduk ama bildirmedik )
+
+ls -al //tüm dosyaları gösterir türü ile birlikte
+
+
+mv değiştirilecek yeni_ad  //dosya ismi değişti  
+				//örnek mv text.txt test.txt  
+					text.txt nin ismi 					test yapıldı 
+
+git restore dosya_adı //değişikleri geri alır.
+
+
+git show    //en son yapılan değişiklikleri gösterir (tarih , not , isim )
+
+git log //yapılan tüm değişklikleri gösterir
+
+git log --oneline //yapılan değişiklik açıklamalarını gösterir
+
+ git checkout eski_kod  //eski zamana geri döner
+
+git revert eski_kod //yaptığı değişikliği geri al(eski kod 3224fe3 gibi)
+
+
+git reset --soft kod(bf4b3b5c8192f3b55f046ab089d08bec8df7373d gibi) //tüm değişiklikleri sil
+
+
+git reset --mixed kod(bf4b3b5c8192f3b55f046ab089d08bec8df7373d gibi) //tüm değişiklikleri sil
+
+git reset --hard kod(bf4b3b5c8192f3b55f046ab089d08bec8df7373d gibi) //tüm değişiklikleri sil
+
+touch .gitignore //ignore dosyası eklendi
+
+git rm -r --cached . //tüm takip edilen dosyaları kaldır
+
+

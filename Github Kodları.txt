@@ -1,0 +1,13 @@
+git remote -v //uzak repo yolunu gösterir
+
+git push //dosyaları uzak repoya gönder
+
+git fetch // github sitesinden veri çek
+
+git merge // :wq enter ile çık
+
+git pull // githubdaki değişikliği alır  git fetch + git merge
+
+git checkout -b "branc adı" //branch oluşturuldu
+
+git checkout main //ana brance git
