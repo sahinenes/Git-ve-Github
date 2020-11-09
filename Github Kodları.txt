@@ -11,3 +11,5 @@ git pull // githubdaki değişikliği alır  git fetch + git merge
 git checkout -b "branc adı" //branch oluşturuldu
 
 git checkout main //ana brance git
+
+git commit --amend -m "New commit message."//commit açıklaması değiştir
